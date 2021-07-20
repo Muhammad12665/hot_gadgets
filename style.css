@@ -1,0 +1,67 @@
+.container{
+    margin-bottom: 100px;
+}
+.container h2{
+    margin-bottom: 100px;
+}
+.prod-bg1{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.prod-bg2{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+}
+
+.buy-button{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(to right, blue 0%, rgb(0, 225, 255) 100%);
+
+}
+.carousel-indicators [data-bs-target]{
+    cursor: pointer;
+    background-color: gray;
+    padding: 3px 4px; 
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target].active{
+    cursor: pointer;
+    background-color: orange;
+    padding: 3px 4px;
+    width: 30px;
+    height: 5px;
+    border-radius: 13px;
+}
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+.card img{
+    padding: 15px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.side-bar{
+    color: orange;
+}
+.part1, .part2, .part3{
+    padding: 10px 10px;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    box-shadow: 10px 10px 20px 10px lightgray;
+    text-align: center;
+    border-radius: 10px;
+}
+.categories h2{
+    text-align: center;
+}
