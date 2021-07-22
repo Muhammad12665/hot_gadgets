@@ -4,23 +4,22 @@
 .container h2{
     margin-bottom: 100px;
 }
-.prod-bg1{
-    background-image: url(images/bg-2.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    z-index: 1;
-    position: relative;
-    top: 20vh;
 
-}
-/* .prod-bg2{
+.bg-1{
     background-image: url(images/bg-1.png);
     background-repeat: no-repeat;
-} */
-
-.carousel-slide{
-    padding: 10vh;
+    background-position: start;
+    margin: 5vh 0px;
 }
+.bg-2{
+    margin-top: -30vh;
+    margin-bottom: 50vh;
+}
+.col-md-7 img{
+    margin-left: 3em;
+    margin-top: -8vh;
+}
+
 .buy-button{
     border: none;
     border-radius: 8px;
