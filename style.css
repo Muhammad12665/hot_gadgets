@@ -7,13 +7,20 @@
 .prod-bg1{
     background-image: url(images/bg-2.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-size: auto;
+    z-index: 1;
+    position: relative;
+    top: 20vh;
+
 }
-.prod-bg2{
+/* .prod-bg2{
     background-image: url(images/bg-1.png);
     background-repeat: no-repeat;
-}
+} */
 
+.carousel-slide{
+    padding: 10vh;
+}
 .buy-button{
     border: none;
     border-radius: 8px;
